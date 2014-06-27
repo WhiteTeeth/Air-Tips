@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyTheme" parent="@android:style/Theme.Holo">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/setting_ab_bg</item>
+        <item name="android:titleTextStyle">@style/MyActionBar.Title</item>
+    </style>
+
+    <style name="MyActionBar.Title" parent="MyActionBar">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#ff484a46</item>
+        <item name="android:shadowColor">#4dffffff</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+
+    <style name="MySettingText">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">#ff484a46</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@drawable/item_bg</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">#4dffffff</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+
+    <style name="MySettingText.Title" parent="@style/MySettingText">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">#ff919191</item>
+        <item name="android:gravity">bottom|left|center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:clickable">false</item>
+    </style>
+
+    <style name="MySettingDivider">
+        <item name="android:background">@drawable/setting_divider</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+
+    <style name="MySettingText.RadioButton" parent="@style/MySettingText">
+        <item name="android:button">@null</item>
+        <item name="android:drawableRight">@drawable/radio_button_bg</item>
+    </style>
+
+    <style name="MySettingText.Done" parent="@style/MySettingText">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:textColor">@color/setting_done_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/setting_done</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+        <item name="android:text">@android:string/ok</item>
+    </style>
+
+    <style name="MyTextStyle">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:layout_marginLeft">4.0dip</item>
+        <item name="android:layout_marginRight">4.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+
+</resources>

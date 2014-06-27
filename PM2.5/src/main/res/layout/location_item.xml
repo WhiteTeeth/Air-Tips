@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@id/style_container"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:enabled="false"
+        android:id="@id/place_category"
+        android:background="#fff5f5f3"
+        android:clickable="true"
+        android:text="@string/setting_category_style"
+        style="@style/MySettingText.Title" />
+
+    <View
+        android:id="@id/category_divider"
+        style="@style/MySettingDivider" />
+
+    <TextView
+        android:id="@id/place_btn"
+        android:clickable="false"
+        android:text="@string/setting_category_location"
+        android:drawableRight="@drawable/radio_button_bg"
+        style="@style/MySettingText" />
+
+    <View
+        android:visibility="visible"
+        style="@style/MySettingDivider" />
+</LinearLayout>

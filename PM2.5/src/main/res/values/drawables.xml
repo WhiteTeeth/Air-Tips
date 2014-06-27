@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="item_bg_p" type="drawable">#ffe3e3e3</item>
+    <item name="item_bg_n" type="drawable">#ffffffff</item>
+</resources>

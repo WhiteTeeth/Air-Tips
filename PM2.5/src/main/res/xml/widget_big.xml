@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="110.0dip"
+    android:minHeight="40.0dip"
+    android:updatePeriodMillis="60000"
+    android:initialLayout="@layout/widget_21"
+    android:previewImage="@drawable/preview_big"
+    android:configure="org.baiya.practice.pm25.ConfigureActivity"></appwidget-provider>

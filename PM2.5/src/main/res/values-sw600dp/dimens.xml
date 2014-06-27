@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="big_widget_text_size">10.0dip</dimen>
+    <dimen name="big_widget_digital_size">24.0dip</dimen>
+</resources>

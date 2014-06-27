@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/setting_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.baiya.practice.pm25.ConfigureActivity">
+
+    <FrameLayout
+        android:background="@drawable/setting_preview_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@id/preview_image"
+            android:contentDescription="@string/empty"
+            android:layout_gravity="center"
+            android:scaleType="matrix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:background="@drawable/setting_ab_shadow"
+            android:contentDescription="@string/empty"
+            android:scaleType="matrix"
+            android:layout_gravity="top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/setting_category_location"
+            style="@style/MySettingText.Title" />
+
+        <View style="@style/MySettingDivider" />
+
+        <TextView
+            android:id="@id/place_btn"
+            android:clickable="true"
+            android:text="@string/setting_category_location"
+            android:drawableRight="@drawable/setting_arrow"
+            style="@style/MySettingText" />
+
+        <View style="@style/MySettingDivider" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/display_container"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/MySettingText.Title"
+            android:text="@string/setting_category_style" />
+
+        <View style="@style/MySettingDivider" />
+
+        <RadioGroup
+            android:id="@id/display_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@id/display_icon"
+                android:text="@string/setting_item_icon"
+                style="@style/MySettingText.RadioButton" />
+
+            <View style="@style/MySettingDivider" />
+
+            <RadioButton
+                android:id="@id/display_value"
+                android:text="@string/setting_item_number"
+                style="@style/MySettingText.RadioButton" />
+        </RadioGroup>
+
+        <View style="@style/MySettingDivider" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/style_container"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/MySettingText.Title"
+            android:text="@string/setting_category_color" />
+
+        <View style="@style/MySettingDivider" />
+
+        <RadioGroup
+            android:id="@id/style_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@id/style_white"
+                android:text="@string/setting_item_light"
+                style="@style/MySettingText.RadioButton" />
+
+            <View style="@style/MySettingDivider" />
+
+            <RadioButton
+                android:id="@id/style_black"
+                android:text="@string/setting_item_dark"
+                style="@style/MySettingText.RadioButton" />
+        </RadioGroup>
+
+        <View style="@style/MySettingDivider" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">空气小贴士</string>
+    <string name="action_ok">确认</string>
+    <string name="title_activity_configure">设置</string>
+    <string name="setting_category_location">设置位置</string>
+    <string name="setting_category_style">设置模式</string>
+    <string name="setting_item_icon">显示图标</string>
+    <string name="setting_item_number">显示数值</string>
+    <string name="setting_item_dark">深色界面</string>
+    <string name="setting_item_light">浅色界面</string>
+    <string name="setting_category_color">设置颜色</string>
+    <string name="empty"></string>
+    <string name="setting_location_hint">输入位置</string>
+    <string name="about_data_sources">数据来源 www.pm25.in</string>
+    <string name="feedback">Air Tips Feedback</string>
+    <string name="about_detail_title">关于我们</string>
+
+    <string name="query_wait">更新中...</string>
+    <string name="about_version">版本 %s</string>
+    <string name="about_copyright">"Copyright©2014 %s
+All Right Reserved"</string>
+    <string name="about_rating_us">给我们评价吧</string>
+    <string name="about_contact_us">联系我们</string>
+    <string name="about">关于</string>
+    <string name="setting_location_title">选择位置</string>
+    <string name="title_activity_tutorials">教程</string>
+    <string name="about_tutorial">使用教程</string>
+
+    <string name="tutorial_1_title">打开桌面组件</string>
+    <string name="tutorial_1_message">长按桌面来打开你的桌面组件</string>
+    <string name="tutorial_2_title">打开小工具</string>
+    <string name="tutorial_2_message">点击小工具图标，开始设定桌面小工具</string>
+    <string name="tutorial_3_title">找到空气小贴士</string>
+    <string name="tutorial_3_message">滑动小工具界面，找到空气小贴士，我们有两种大小样式供你选择</string>
+    <string name="tutorial_4_title">拖拽到你的桌面</string>
+    <string name="tutorial_4_message">点击空气小贴士，拖拽到你的桌面</string>
+    <string name="tutorial_5_title">个性化设定</string>
+    <string name="tutorial_5_message">成功添加桌面小工具，进行个性化设定吧</string>
+</resources>

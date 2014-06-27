@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">空氣便利貼</string>
+    <string name="action_ok">确认</string>
+    <string name="title_activity_configure">設置</string>
+    <string name="setting_category_location">設定位置</string>
+    <string name="setting_category_style">設定模式</string>
+    <string name="setting_item_icon">顯示圖形</string>
+    <string name="setting_item_number">顯示數值</string>
+    <string name="setting_item_dark">深色介面</string>
+    <string name="setting_item_light">淺色介面</string>
+    <string name="setting_category_color">設定颜色</string>
+    <string name="empty"></string>
+    <string name="setting_location_hint">輸入位置</string>
+    <string name="about_data_sources">數據來源 www.pm25.in</string>
+    <string name="feedback">Air Tips Feedback</string>
+    <string name="about_detail_title">關於我們</string>
+
+    <string name="query_wait">更新中...</string>
+    <string name="about_version">版本 %s</string>
+    <string name="about_copyright">"Copyright©2014 %s
+All Right Reserved"</string>
+    <string name="about_rating_us">給我們評價吧</string>
+    <string name="about_contact_us">聯絡我們</string>
+    <string name="about">關於</string>
+    <string name="setting_location_title">設定位置</string>
+    <string name="about_tutorial">使用教學</string>
+    <string name="title_activity_tutorials">教學</string>
+
+    <string name="tutorial_1_title">開始</string>
+    <string name="tutorial_1_message">長按桌面，準備新增Widget</string>
+    <string name="tutorial_2_title">選擇小工具類別</string>
+    <string name="tutorial_2_message">準備挑選一個小工具吧</string>
+    <string name="tutorial_3_title">找到空氣便利貼</string>
+    <string name="tutorial_3_message">滑動頁面，找到空氣便利貼</string>
+    <string name="tutorial_4_title">長按空氣便利貼</string>
+    <string name="tutorial_4_message">將空氣便利貼拖曳至桌面上</string>
+    <string name="tutorial_5_title">好了，準備完成設定</string>
+    <string name="tutorial_5_message">開始選擇您的地區並設定小工具</string>
+</resources>
