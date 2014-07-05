@@ -10,7 +10,6 @@ import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 
 import org.baiya.practice.pm25.cache.WidgetManager;
-import org.baiya.practice.pm25.tools.Logger;
 
 public abstract class BaseWidget extends AppWidgetProvider {
 
@@ -85,7 +84,6 @@ public abstract class BaseWidget extends AppWidgetProvider {
     @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
         super.onUpdate(context, appWidgetManager, appWidgetIds);
-        Logger.i("pm25 onUpdate");
         for (int appWidgetId : appWidgetIds) {
             UpdateService.updateWidget(context, appWidgetId);
         }
@@ -94,7 +92,6 @@ public abstract class BaseWidget extends AppWidgetProvider {
     @Override
     public void onDeleted(Context context, int[] appWidgetIds) {
         super.onDeleted(context, appWidgetIds);
-        Logger.i("pm25 onDeleted");
         for (int appWidgetId : appWidgetIds) {
             WidgetManager.removePmBean(context, appWidgetId);
         }

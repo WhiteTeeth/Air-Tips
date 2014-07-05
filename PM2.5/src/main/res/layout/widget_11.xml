@@ -13,7 +13,7 @@
 
         <ImageView
             android:layout_gravity="center"
-            android:id="@id/bg"
+            android:id="@+id/bg"
             android:background="@android:color/transparent"
             android:src="@drawable/widget_11_white_bg"
             android:scaleType="fitXY"
@@ -22,7 +22,7 @@
 
         <ImageView
             android:layout_gravity="center_horizontal"
-            android:id="@id/circle_bg"
+            android:id="@+id/circle_bg"
             android:background="@drawable/widget_11_circle_shadow_bg"
             android:layout_margin="8dp"
             android:scaleType="fitXY"

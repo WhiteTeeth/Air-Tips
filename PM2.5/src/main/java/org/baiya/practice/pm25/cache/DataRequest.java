@@ -100,7 +100,7 @@ public class DataRequest extends ZipRequest {
         if (file.exists()) {
             long time = System.currentTimeMillis();
             long lastModified = file.lastModified();
-            if (time - lastModified <= 600000L) {
+            if (time - lastModified <= 86400000L) {
                 return false;
             }
         }

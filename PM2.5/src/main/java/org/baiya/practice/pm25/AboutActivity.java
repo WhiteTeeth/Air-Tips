@@ -53,27 +53,26 @@ public class AboutActivity extends Activity implements View.OnClickListener {
             objects[0] = versionName;
             String version = getString(R.string.about_version, objects);
             mVersionView.setText(version);
-
-            mContactView = (TextView) findViewById(R.id.contact_us);
-            mRatingView = (TextView) findViewById(R.id.rating_us);
-            mSourcesView = (TextView) findViewById(R.id.data_sources);
-            mTutorialsView = (TextView) findViewById(R.id.tutorials);
-            mContactView.setOnClickListener(this);
-            mRatingView.setOnClickListener(this);
-            mSourcesView.setOnClickListener(this);
-            mTutorialsView.setOnClickListener(this);
-
-            findViewById(R.id.container).setOnTouchListener(new View.OnTouchListener() {
-                @Override
-                public boolean onTouch(View v, MotionEvent event) {
-                    refreshView();
-                    return false;
-                }
-            });
         } catch (PackageManager.NameNotFoundException e) {
             e.printStackTrace();
             mVersionView.setVisibility(View.GONE);
         }
+        mContactView = (TextView) findViewById(R.id.contact_us);
+        mRatingView = (TextView) findViewById(R.id.rating_us);
+        mSourcesView = (TextView) findViewById(R.id.data_sources);
+        mTutorialsView = (TextView) findViewById(R.id.tutorials);
+        mContactView.setOnClickListener(this);
+        mRatingView.setOnClickListener(this);
+        mSourcesView.setOnClickListener(this);
+        mTutorialsView.setOnClickListener(this);
+
+        findViewById(R.id.container).setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                refreshView();
+                return false;
+            }
+        });
     }
 
     private void refreshView() {
